@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playwrite+CU:wght@100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: #4d4b4b;
+    color: #f8f8f8;
+    padding: 2em;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1, h3 {
+    text-align: center;
+    padding-top: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: "Great Vibes", cursive;
+}
+
+h1 {
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #e72c2c;
+    letter-spacing: 3px;
+}
+
+.poster {
+    text-align: center;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.lyrics {
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    line-height: 1.8em;
+    font-size: 1.2em;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
+}
+
+.lyrics:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+iframe {
+    height: 45vh;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+}
+
+.baby {
+    color: #ffcc00;
+    font-weight: 600;
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
